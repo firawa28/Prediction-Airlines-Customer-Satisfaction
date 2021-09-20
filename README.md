@@ -99,13 +99,13 @@ Karena kita memiliki target seimbang, dan kita ingin meningkatkan kualitas predi
 
 ### Model Evaluation
 
-Random Forest Classifier <br>
-| Training | Testing |
-| --- | --- |
-| Akurasi 100% | Akurasi 95% |
-| Precision 100% | Precision 97% |
-| Recall 100% | Recall 95% |
-| F1-Score 100% | F1-Score 96% |
+Random Forest Classifier: <br>
+| Evaluation Score | Training | Testing |
+| --- | --- | --- |
+| Akurasi | 100% |  95% |
+| Precision | 100% | 97% |
+| Recall | 100% | 95% |
+| F1-Score | 100% | 96% |
 
 Berdasarkan hasil evaluation score yang telah dilakukan dari beberapa model, diketahui bahwa model Random Forest Classifier yang memiliki tingkat Precision tertinggi, yaitu sebesar 97%. Selain itu, dapat dilihat bahwa model ini memiliki rentang evaluation score Precision pada training dan testing score yang kecil, sehingga dapat kita simpulkan model ini sangat baik karena tidak terjadi underfitting maupun overfitting. Oleh karena itu, dipilih model Random Forest Classifier untuk melakukan prediksi satisfaction customer maskapai Invistico Airlines.
 
