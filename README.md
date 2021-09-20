@@ -69,3 +69,53 @@ Pada dataset [Invistico_Airlines.csv](https://github.com/firawa28/Prediction-Air
 Berdasarkan analisa EDA di atas, karena terdapat anomaly data maka diputuskan untuk melakukan analisa lebih dalam menggunakan model machine learning untuk mengetahui feature yang berperan besar dalam mempengaruhi satisfaction customer Invistico Airlines.
 
 
+## Data Preprocessing
+Sebelum kita melakukan modelling machine learning, tahapan yang harus dilakukan adalah Data Preprocessing. Tujuanya adalah untuk mendapatkan hasil model prediksi yang baik. Berikut merupakan tahapan-tahapan yang dilakukan:
+
+1. Handle Missing Value <br>
+   Diketahui bahwa terdapat missing value pada fiture Arrival Delay in Minutes. Untuk handle missing value tersebut, kami handle dengan cara filling missing value dengan nilai mediannya.
+2. Handle Feature Categorical <br>
+   Ada dua metode yang kami lakukan, yaitu Label Encoding dan One-Hot Encoding <br>
+a.	Label Encoding dilakukan pada feature Class dan target Satisfaction <br>
+b.	One-Hot Encoding dilakukan pada feature Gender, Customer Type dan Type of Travel <br>
+ 
+3. Feature Selection <br>
+   Pada tahapan ini, kami hanya memilih feature-feature memiliki nilai korelasi > |0.1| dengan target. <br>
+   
+4. Split Data <br>
+   Pada tahapan ini, kami melakukan split data untuk training set dan testing set dengan proporsi perbandingan 70:30. 70 untuk training set dan 30 untuk testing set. Selain itu kami menggunakan random_state = 42.
+
+## Modelling dan Evaluation Model.
+
+### Machine Learning Modelling
+
+Karena kita memiliki target seimbang, dan kita ingin meningkatkan kualitas prediksi, yaitu dengan **meminimalisir false positif** yang terjadi dimana false positif terjadi ketika Actual "No" atau dissatisfied namun model memprediksi "Yes" atau Satisfied. Oleh karena itu, kita akan menggunakan evaluation score **Precision**. Selanjutnya model yang digunakan untuk training dan testing adalah
+
+1. Logistic Regression
+2. Decision Tree Classifier
+3. Random Forest Classifier
+4. Adaboost Classifier
+5. Gradient Boosting Classifier
+
+### Model Evaluation
+
+Random Forest Classifier <br>
+| Training | Testing |
+| --- | --- |
+| Akurasi 100% | Akurasi 95% |
+| Precision 100% | Precision 97% |
+| Recall 100% | Recall 95% |
+| F1-Score 100% | F1-Score 96% |
+
+Berdasarkan hasil evaluation score yang telah dilakukan dari beberapa model, diketahui bahwa model Random Forest Classifier yang memiliki tingkat Precision tertinggi, yaitu sebesar 97%. Selain itu, dapat dilihat bahwa model ini memiliki rentang evaluation score Precision pada training dan testing score yang kecil, sehingga dapat kita simpulkan model ini sangat baik karena tidak terjadi underfitting maupun overfitting. Oleh karena itu, dipilih model Random Forest Classifier untuk melakukan prediksi satisfaction customer maskapai Invistico Airlines.
+
+## Feature Importance
+![alt text](https://github.com/firawa28/Prediction-Airlines-Customer-Satisfaction/blob/main/Gambar/Feature%20Importance%20Score.png "Feature Importance by Model Random Forest Classifier")
+
+Berdasarkan feature importance menurut model Random Forest Classifier feature-feature yang paling berperan besar dalam mempengaruhi satisfaction customer maskapai Invistico Airlines adalah:
+1. Inflight Entertaiment
+2. Seat comfort
+3. Online Support
+4. Ease of Online Booking
+
+Dengan kita mengetahui feature yang berperan besar dalam memngaruhi satisfaction customer, tentunya kita dapat melakukan improvement pada feature tersebut agar tingkat satisfaction invistico airline dapat meningkat.
