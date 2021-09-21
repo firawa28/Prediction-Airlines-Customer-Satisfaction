@@ -119,3 +119,18 @@ Berdasarkan feature importance menurut model Random Forest Classifier feature-fe
 4. Ease of Online Booking
 
 Dengan kita mengetahui feature yang berperan besar dalam memngaruhi satisfaction customer, tentunya kita dapat melakukan improvement pada feature tersebut agar tingkat satisfaction invistico airline dapat meningkat.
+
+## Business Recommendation
+Dalam merekomendasikan bisnis, kami membagi menjadi 4 bagian utama yaitu:
+1.	Action/Process
+2.	Area Improvement
+3.	Mechanisme
+4.	Impact
+
+Berikut merupakan ringkasan dari Business Recomendation yang kami usulkan untuk setiap 4 feature yang paling berpengaruh besar dalam mempengaruhi satisfaction customer:
+![alt text](https://github.com/firawa28/Prediction-Airlines-Customer-Satisfaction/blob/main/Gambar/Business%20Recomendation.PNG "Busniess Recomendation").
+
+Langkah selanjutnya adalah kami melakukan simulasi untuk bisnis yang kami rekomendasikan.
+![alt text](https://github.com/firawa28/Prediction-Airlines-Customer-Satisfaction/blob/main/Gambar/Business%20Simulation.PNG "Busniess Simulation").
+
+Diketahui bahwa kami melakukan survey awal pada Q3 2021, dengan net revenue 20.3 Mio USD dan tingkat satisfaction rate sebesar 55% dan kami mulai menerapkan bisnis rekomendasi pada Q4-2021. Walaupun terjadi penurunan net revenue pada Q1 2022-Q3 2022 yang disebabkan oleh Cost Investment untuk bisnis improvment, terlihat bahwa satisfaction rate mulai naik, dan net revenue kembali meningkat di Q4 2022. Sehingga berdasarkan grafik di atas, kami mengekspetasikan bahwa dari bisnis improvement yang telah dilakukan dapat menaikan satisfaction rate pada Q4 2023 hingga 75 % dan nilai Year over Year pada tahun 2023 dapat naik hingga 19% atau 13.9 Mio USD.
