@@ -133,4 +133,17 @@ Berikut merupakan ringkasan dari Business Recomendation yang kami usulkan untuk 
 Langkah selanjutnya adalah kami melakukan simulasi untuk bisnis yang kami rekomendasikan.
 ![alt text](https://github.com/firawa28/Prediction-Airlines-Customer-Satisfaction/blob/main/Gambar/Business%20Simulation.PNG "Busniess Simulation").
 
-Diketahui bahwa kami melakukan survey awal pada Q3 2021, dengan net revenue 20.3 Mio USD dan tingkat satisfaction rate sebesar 55% dan kami mulai menerapkan Business Improvment pada Q4-2021. Walaupun terjadi penurunan net revenue pada Q1 2022 - Q3 2022 yang disebabkan oleh adanya Cost Investment untuk Business Improvment, terlihat bahwa satisfaction rate mulai naik, dan net revenue kembali meningkat di Q4 2022. Sehingga berdasarkan grafik di atas, kami mengekspetasikan bahwa dari bisnis improvement yang telah dilakukan dapat menaikan satisfaction rate pada Q4 2023 hingga 75 % dan nilai Year over Year pada tahun 2023 dapat naik hingga 19% atau 13.9 Mio USD.
+Diketahui bahwa kami melakukan survey awal pada Q3 2021, dengan net revenue 20.3 Mio USD dan tingkat satisfaction rate sebesar 55% dan kami mulai menerapkan Business Improvment pada Q4-2021. Walaupun terjadi penurunan net revenue pada Q1 2022 - Q3 2022 yang disebabkan oleh adanya Cost Investment untuk Business Improvment, terlihat bahwa satisfaction rate mulai naik, dan net revenue kembali meningkat di Q4 2022. Sehingga berdasarkan grafik di atas, kami mengekspetasikan bahwa dari Business Improvment yang telah dilakukan dapat menaikan satisfaction rate pada Q4 2023 hingga 75 % dan nilai Year over Year pada tahun 2023 dapat naik hingga 19% atau 13.9 Mio USD.
+
+# Team Behind This Project
+* As the final project to finish learning path for Data Science in [Rakamin Academy](https://rakamin.com/), this model was built from a growth team called **Hakuna Matata**<br>
+
+**The Team Member**<br>
+| Member |LinkedIn url |
+| --- | --- |
+| **Our Friendly Mentor: Muhammad Mirza Fahmi** | https://www.linkedin.com/in/mmirzafahmi/ |
+| **Fikri Rafhsanjani Wahiyat (me)** | https://www.linkedin.com/in/fikri-rafhsanjani/ |
+| **Asep Hermawan** | https://www.linkedin.com/in/asep-hermawan-9052621a/|
+| **Fitri Nabilah Asyharti** | https://www.linkedin.com/in/fitri-nabilah-asyharti-772403175/ |
+| **Syifa Aulia** | - |
+| **Rizki Dwi Santoso** | https://www.linkedin.com/in/rizki-dwi-santoso/ |
