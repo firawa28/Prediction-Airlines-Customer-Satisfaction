@@ -128,12 +128,13 @@ Dalam merekomendasikan bisnis, kami membagi menjadi 4 bagian utama yaitu:
 4.	Impact
 
 Berikut merupakan ringkasan dari Business Recomendation yang kami usulkan untuk setiap 4 feature yang paling berpengaruh besar dalam mempengaruhi satisfaction customer:
-![alt text](https://github.com/firawa28/Prediction-Airlines-Customer-Satisfaction/blob/main/Gambar/Business%20Recomendation.PNG "Busniess Recomendation").
+![alt text](https://github.com/firawa28/Prediction-Airlines-Customer-Satisfaction/blob/main/Gambar/Business%20Recomendation.PNG "Busniess Recomendation")
 
 Langkah selanjutnya adalah kami melakukan simulasi untuk bisnis yang kami rekomendasikan.
-![alt text](https://github.com/firawa28/Prediction-Airlines-Customer-Satisfaction/blob/main/Gambar/Business%20Simulation.PNG "Busniess Simulation").
+![alt text](https://github.com/firawa28/Prediction-Airlines-Customer-Satisfaction/blob/main/Gambar/Business%20Simulation.PNG "Busniess Simulation")
 
-Diketahui bahwa kami melakukan survey awal pada Q3 2021, dengan net revenue 20.3 Mio USD dan tingkat satisfaction rate sebesar 55% dan kami mulai menerapkan Business Improvment pada Q4-2021. Walaupun terjadi penurunan net revenue pada Q1 2022 - Q3 2022 yang disebabkan oleh adanya Cost Investment untuk Business Improvment, terlihat bahwa satisfaction rate mulai naik, dan net revenue kembali meningkat di Q4 2022. Sehingga berdasarkan grafik di atas, kami mengekspetasikan bahwa dari Business Improvment yang telah dilakukan dapat menaikan satisfaction rate pada Q4 2023 hingga 75 % dan nilai Year over Year pada tahun 2023 dapat naik hingga 19% atau 13.9 Mio USD.
+
+Diketahui bahwa kami melakukan survey awal pada Q3 2021, dengan net revenue 20.3 Mio USD dan tingkat satisfaction rate sebesar 55%, sehingga kami mulai menerapkan Business Improvment pada Q4-2021. Walaupun terjadi penurunan net revenue pada Q1 2022 - Q3 2022 yang disebabkan oleh adanya Cost Investment untuk Business Improvment, terlihat bahwa satisfaction rate mulai naik, dan net revenue kembali meningkat di Q4 2022 dengan cara menaikan harga tiket sebesar 5$ untuk setiap penumoang. Sehingga berdasarkan grafik di atas, kami mengekspetasikan bahwa dari Business Improvment yang telah dilakukan dapat menaikan satisfaction rate pada Q4 2023 hingga 75 % dan nilai Year over Year pada tahun 2023 dapat naik hingga 19% atau 13.9 Mio USD.
 
 # Team Behind This Project
 * As the final project to finish learning path for Data Science in [Rakamin Academy](https://rakamin.com/), this model was built from a growth team called **Hakuna Matata**<br>
